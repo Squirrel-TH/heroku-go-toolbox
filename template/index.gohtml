@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>道具箱</title>
+</head>
+<body>
+<h1>ようこそ {{.UserName}} さん！</h1>
+{{template "menu"}}
+
+<p>現在時刻は {{.Time.Format "2006/1/2 15:04:05"}} です。</p>
+</body>
+</html>
